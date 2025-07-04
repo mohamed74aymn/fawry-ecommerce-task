@@ -47,7 +47,8 @@ src/ main/ java/ com/ fawry/ecommerce/
 -because it Standard project structure and Easy dependency management and Ready for scaling into Spring Boot REST APIs
 
 ## output of project
-`cart1.add(cheese, 2);
+```
+cart1.add(cheese, 2);
 cart1.add(biscuit, 1);
 cart1.add(Milk, 1);
 cart1.add(scratchCard, 2);
@@ -65,8 +66,9 @@ cart1.add(tv, 3);
 2x Cheese 100.0
 1x Milk 120.0
 2x ScratchCard 100.0
-3x TV 3000.0`
----
+3x TV 3000.0
+```
+
 
 Subtotal 3320.0
 Shipping 50.0
