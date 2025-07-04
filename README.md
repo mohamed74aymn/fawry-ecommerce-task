@@ -42,7 +42,7 @@ src/ main/ java/ com/ fawry/ecommerce/
 
 - `App.java` is the main file where execution starts. It connects all components to run the e-commerce flow.
 
-## Why i Maven?
+## Why i use Maven?
 
 -because it Standard project structure and Easy dependency management and Ready for scaling into Spring Boot REST APIs
 
@@ -97,11 +97,11 @@ shippable item provide its weight.
 -this Java app is console-based,so it need to expose functionality over HTTP using a web framework (spring boot for example)
 -and Create REST Controllers
 
-##
+
 
 ## Explain code
 
-**model folder: Represents domain entities and interfaces also products**
+##model folder: Represents domain entities and interfaces also products
 
 _take a product for example Biscuit to explain_
 
@@ -114,21 +114,21 @@ Shippable – allows the product to be included in shipments based on weight
 _i not add to it some products that donsn't need it weight like ScratchCard_
 
 Main Methods
-getName() – returns the product name
+-getName() – returns the product name
 
-getPrice() – returns the price per unit
+-getPrice() – returns the price per unit
 
-getQuantity() – returns current stock quantity
+-getQuantity() – returns current stock quantity
 
-getWeight() – returns the product weight (for shipping cost calculation)
+-getWeight() – returns the product weight (for shipping cost calculation)
 
-isExpired() – returns true if the product is expired
+-isExpired() – returns true if the product is expired
 
-isShippable() – returns true (this product is eligible for shipping)
+-isShippable() – returns true (this product is eligible for shipping)
 
-reduceStock(int q) – decreases stock by the specified quantity after checkout
+-reduceStock(int q) – decreases stock by the specified quantity after checkout
 
-**service folder:contains the business logic of the project. It does the actual processing**
+##service folder:contains the business logic of the project. It does the actual processing
 _Managing cart items_
 
 _Validating quantities and expiration_
