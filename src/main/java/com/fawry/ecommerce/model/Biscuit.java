@@ -18,10 +18,11 @@ public class Biscuit implements Product, Expirable, Shippable {
     public String getName() { return name; }
     public double getPrice() { return price; }
     public int getQuantity() { return quantity; }
+ 
     public boolean isExpired() { return expired; }
-    public boolean isShippable() { return true; }
-    public double getWeight() { return weight; }
-     public void reduceStock(int q) {
+      public boolean isShippable() { return true; }
+      public double getWeight() { return weight; }
+      public void reduceStock(int q) {
     this.quantity -= q;
 }
     
